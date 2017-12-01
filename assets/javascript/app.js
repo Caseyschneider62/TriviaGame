@@ -1,4 +1,5 @@
-(function() {
+
+  (function() {
   const myQuestions = [
     {
       question: "Who is the strongest?",
@@ -29,7 +30,7 @@
       correctAnswer: "d"
     }
   ];
-
+console.log(myQuestions[0].answers.b);
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
